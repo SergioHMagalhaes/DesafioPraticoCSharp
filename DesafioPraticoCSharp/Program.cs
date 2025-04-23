@@ -3,15 +3,11 @@
 class Program {
     static void Main()
     {
-        Console.Write("Digite o seu nome: ");
-        string? name = Console.ReadLine();
+        Person newPerson = new Person();
+        newPerson.askName();
+        newPerson.printWelcome();
+        newPerson.askLastName();
+        newPerson.printFullName();
 
-        Console.WriteLine($"Olá, {name}! Seja muito bem-vindo!");
-
-        //Exercício 2
-        Console.Write("Digite o seu sobrenome: ");
-        string? lastName = Console.ReadLine();
-
-        Console.WriteLine($"Seu nome completo é {name} {lastName}");
     }
 }
