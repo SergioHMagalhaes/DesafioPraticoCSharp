@@ -5,25 +5,25 @@ public class Person
     private string? name;
     private string? lastName;
 
-    public void askName ()
+    public void AskName ()
     {
         Console.WriteLine("============================");
         Console.Write("Digite o seu nome: ");
         name = Console.ReadLine();
     }
 
-    public void askLastName()
+    public void AskLastName()
     {
         Console.Write("Digite o seu sobrenome: ");
         lastName = Console.ReadLine();
     }
 
-    public void printWelcome()
+    public void PrintWelcome()
     {
         Console.WriteLine($"Olá, {name}! Seja muito bem-vindo!");
     }
 
-    public void printFullName()
+    public void PrintFullName()
     {
         Console.WriteLine($"Seu nome completo é {name} {lastName}");
         Console.WriteLine("============================");
