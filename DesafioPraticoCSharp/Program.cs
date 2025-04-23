@@ -7,5 +7,11 @@ class Program {
         string? name = Console.ReadLine();
 
         Console.WriteLine($"Olá, {name}! Seja muito bem-vindo!");
+
+        //Exercício 2
+        Console.Write("Digite o seu sobrenome: ");
+        string? lastName = Console.ReadLine();
+
+        Console.WriteLine($"Seu nome completo é {name} {lastName}");
     }
 }
