@@ -22,5 +22,8 @@ class Program {
 
         Console.WriteLine("============================");
 
+        Console.WriteLine("\n4. Contantador de palavras");
+        Utils.countCharacter();
+
     }
 }
