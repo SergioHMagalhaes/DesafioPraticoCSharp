@@ -29,6 +29,11 @@ class Program {
 
         Console.WriteLine("\n5. Validador de placa");
         Utils.ValidatePlate();
+        
+        Console.WriteLine("============================");
+
+        Console.WriteLine("\n6. Data Atual");
+        Utils.DateNow();
 
     }
 }

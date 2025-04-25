@@ -1,6 +1,4 @@
-﻿using System.Threading;
-using System.Xml.Linq;
-using static System.Net.Mime.MediaTypeNames;
+﻿using System.Globalization;
 
 namespace DesafioPraticoCSharp;
 
@@ -53,6 +51,15 @@ public class Utils
         {
             Console.WriteLine("Placa não informada");
         }
+    }
+
+    public static void DateNow() 
+    {
+        DateTime now = DateTime.Now;
+        Console.WriteLine(now);
+        Console.WriteLine(now.ToString("d/MM/yyyy"));
+        Console.WriteLine(now.Hour);
+        Console.WriteLine(now.ToString("d 'de' MMMM 'de' yyyy", new CultureInfo("pt-BR")));
     }
 
 
