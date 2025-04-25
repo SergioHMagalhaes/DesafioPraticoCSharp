@@ -7,7 +7,6 @@ public class Person
 
     public void AskName ()
     {
-        Console.WriteLine("============================");
         Console.Write("Digite o seu nome: ");
         name = Console.ReadLine();
     }
@@ -26,6 +25,5 @@ public class Person
     public void PrintFullName()
     {
         Console.WriteLine($"Seu nome completo é {name} {lastName}");
-        Console.WriteLine("============================");
     }
 }
