@@ -23,7 +23,12 @@ class Program {
         Console.WriteLine("============================");
 
         Console.WriteLine("\n4. Contantador de palavras");
-        Utils.countCharacter();
+        Utils.CountCharacter();
+        
+        Console.WriteLine("============================");
+
+        Console.WriteLine("\n5. Validador de placa");
+        Utils.ValidatePlate();
 
     }
 }
